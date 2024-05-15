@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quizstyle.css">
+</head>
+<body>
+   
+        <a  href="main.html" id="butonid" class="inapoi-button">
+            INAPOI
+        </a>
+        <div class="centru">
+    <div id="quiz-container">
+        <div id="question">Question goes here</div>
+        <div id="options">
+            <button class="option">Option 1</button>
+            <button class="option">Option 2</button>
+            <button class="option">Option 3</button>
+            <button class="option">Option 4</button>
+        </div>
+        <button id="next-button">Next</button>
+        <div id="result"></div>
+    </div>
+
+    <div class="calculator">
+        <div class="display-wrapper">    
+        <input type="text" id="display" class="display" disabled>
+        <button class="buton2" onclick="clearDisplay()">C</button>
+    </div>
+    
+    
+    
+        <div class="buttons">
+            <button class="option2" onclick="appendToDisplay('7')">7</button>
+            <button class="option2" onclick="appendToDisplay('8')">8</button>
+            <button class="option2" onclick="appendToDisplay('9')">9</button>
+            <button class="option2" onclick="appendToDisplay('/')">/</button>
+            <button class="option2" onclick="appendToDisplay('4')">4</button>
+            <button class="option2" onclick="appendToDisplay('5')">5</button>
+            <button class="option2" onclick="appendToDisplay('6')">6</button>
+            <button class="option2" onclick="appendToDisplay('*')">*</button>
+            <button class="option2" onclick="appendToDisplay('1')">1</button>
+            <button class="option2" onclick="appendToDisplay('2')">2</button>
+            <button class="option2" onclick="appendToDisplay('3')">3</button>
+            <button class="option2" onclick="appendToDisplay('-')">-</button>
+            <button class="option2" onclick="appendToDisplay('0')">0</button>
+            <button class="option2" onclick="appendToDisplay('.')">.</button>
+            <button class="option2" onclick="calculateResult()">=</button>
+            <button class="option2" onclick="appendToDisplay('+')">+</button>
+        </div>
+    </div>
+</div>
+    <div class="wrapper">
+        
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+      </div>
+
+
+
+    <script src="quizscript.js"></script>
+</body>
+</html>
